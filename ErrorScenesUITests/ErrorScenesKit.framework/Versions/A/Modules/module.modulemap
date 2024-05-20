@@ -1,0 +1,6 @@
+framework module ErrorScenesKit {
+  umbrella header "ErrorScenesKit.h"
+  export *
+
+  module * { export * }
+}

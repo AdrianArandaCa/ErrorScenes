@@ -1,0 +1,2691 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorView",
+        "printedName": "ErrorView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorType",
+            "printedName": "errorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "ErrorScenesKit.ErrorType",
+                "usr": "s:14ErrorScenesKit0A4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovp",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovg",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovs",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV9errorTypeAA0aF0Ovs",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV9errorTypeAA0aF0OvM",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV9errorTypeAA0aF0OvM",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonText",
+            "printedName": "buttonText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4ViewV10buttonTextSSvp",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV10buttonTextSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10buttonTextSSvg",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10buttonTextSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10buttonTextSSvs",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10buttonTextSSvs",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10buttonTextSSvM",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10buttonTextSSvM",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4ViewV6actionyycvp",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV6actionyycvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV6actionyycvg",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV6actionyycvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV6actionyycvs",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV6actionyycvs",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV6actionyycvM",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV6actionyycvM",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorTitle",
+            "printedName": "errorTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorTitle",
+                "printedName": "ErrorScenesKit.ErrorTitle",
+                "usr": "s:14ErrorScenesKit0A5TitleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvp",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorTitle",
+                    "printedName": "ErrorScenesKit.ErrorTitle",
+                    "usr": "s:14ErrorScenesKit0A5TitleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvg",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorTitle",
+                    "printedName": "ErrorScenesKit.ErrorTitle",
+                    "usr": "s:14ErrorScenesKit0A5TitleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvs",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10errorTitleAA0aF0Vvs",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV10errorTitleAA0aF0VvM",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV10errorTitleAA0aF0VvM",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4ViewV4bodyQrvp",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV4bodyQrvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4ViewV4bodyQrvg",
+                "mangledName": "$s14ErrorScenesKit0A4ViewV4bodyQrvg",
+                "moduleName": "ErrorScenesKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(errorType:buttonText:action:errorTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorView",
+                "printedName": "ErrorScenesKit.ErrorView",
+                "usr": "s:14ErrorScenesKit0A4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "ErrorScenesKit.ErrorType",
+                "usr": "s:14ErrorScenesKit0A4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorTitle",
+                "printedName": "ErrorScenesKit.ErrorTitle",
+                "hasDefaultArg": true,
+                "usr": "s:14ErrorScenesKit0A5TitleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ErrorScenesKit0A4ViewV9errorType10buttonText6action0E5TitleAcA0aF0O_SSyycAA0aJ0Vtcfc",
+            "mangledName": "$s14ErrorScenesKit0A4ViewV9errorType10buttonText6action0E5TitleAcA0aF0O_SSyycAA0aJ0Vtcfc",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ErrorScenesKit0A4ViewV",
+        "mangledName": "$s14ErrorScenesKit0A4ViewV",
+        "moduleName": "ErrorScenesKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorType",
+        "printedName": "ErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO16connectionFailedyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO16connectionFailedyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "brokenLink",
+            "printedName": "brokenLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO10brokenLinkyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO10brokenLinkyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "noResult",
+            "printedName": "noResult",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO8noResultyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO8noResultyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "notEnoughtSpace",
+            "printedName": "notEnoughtSpace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO15notEnoughtSpaceyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO15notEnoughtSpaceyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "opps",
+            "printedName": "opps",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO4oppsyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO4oppsyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "pageNotFound",
+            "printedName": "pageNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorType.Type) -> ErrorScenesKit.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ErrorScenesKit.ErrorType",
+                        "usr": "s:14ErrorScenesKit0A4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A4TypeO12pageNotFoundyA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO12pageNotFoundyA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ErrorScenesKit.ErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ErrorScenesKit.ErrorType",
+                    "usr": "s:14ErrorScenesKit0A4TypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ErrorScenesKit0A4TypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO8rawValueACSgSS_tcfc",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A4TypeO8rawValueSSvp",
+            "mangledName": "$s14ErrorScenesKit0A4TypeO8rawValueSSvp",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A4TypeO8rawValueSSvg",
+                "mangledName": "$s14ErrorScenesKit0A4TypeO8rawValueSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14ErrorScenesKit0A4TypeO",
+        "mangledName": "$s14ErrorScenesKit0A4TypeO",
+        "moduleName": "ErrorScenesKit",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorCaption",
+        "printedName": "ErrorCaption",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionFailedCaption",
+            "printedName": "connectionFailedCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO016connectionFailedD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO016connectionFailedD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "brokenLinkCaption",
+            "printedName": "brokenLinkCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO010brokenLinkD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO010brokenLinkD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "noResultCaption",
+            "printedName": "noResultCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO08noResultD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO08noResultD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "notEnoughtSpaceCaption",
+            "printedName": "notEnoughtSpaceCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO015notEnoughtSpaceD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO015notEnoughtSpaceD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "oppsCaption",
+            "printedName": "oppsCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO04oppsD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO04oppsD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "pageNotFoundCaption",
+            "printedName": "pageNotFoundCaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ErrorScenesKit.ErrorCaption.Type) -> ErrorScenesKit.ErrorCaption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ErrorScenesKit.ErrorCaption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCaption",
+                        "printedName": "ErrorScenesKit.ErrorCaption",
+                        "usr": "s:14ErrorScenesKit0A7CaptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ErrorScenesKit0A7CaptionO012pageNotFoundD0yA2CmF",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO012pageNotFoundD0yA2CmF",
+            "moduleName": "ErrorScenesKit",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ErrorScenesKit.ErrorCaption?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCaption",
+                    "printedName": "ErrorScenesKit.ErrorCaption",
+                    "usr": "s:14ErrorScenesKit0A7CaptionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ErrorScenesKit0A7CaptionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO8rawValueACSgSS_tcfc",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A7CaptionO8rawValueSSvp",
+            "mangledName": "$s14ErrorScenesKit0A7CaptionO8rawValueSSvp",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A7CaptionO8rawValueSSvg",
+                "mangledName": "$s14ErrorScenesKit0A7CaptionO8rawValueSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14ErrorScenesKit0A7CaptionO",
+        "mangledName": "$s14ErrorScenesKit0A7CaptionO",
+        "moduleName": "ErrorScenesKit",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorTitle",
+        "printedName": "ErrorTitle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV16connectionFailedSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV16connectionFailedSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV16connectionFailedSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV16connectionFailedSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokenLink",
+            "printedName": "brokenLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV10brokenLinkSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV10brokenLinkSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV10brokenLinkSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV10brokenLinkSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noResult",
+            "printedName": "noResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV8noResultSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV8noResultSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV8noResultSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV8noResultSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notEnoughtSpace",
+            "printedName": "notEnoughtSpace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV15notEnoughtSpaceSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV15notEnoughtSpaceSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV15notEnoughtSpaceSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV15notEnoughtSpaceSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opps",
+            "printedName": "opps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV4oppsSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV4oppsSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV4oppsSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV4oppsSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageNotFound",
+            "printedName": "pageNotFound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ErrorScenesKit0A5TitleV12pageNotFoundSSvp",
+            "mangledName": "$s14ErrorScenesKit0A5TitleV12pageNotFoundSSvp",
+            "moduleName": "ErrorScenesKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ErrorScenesKit0A5TitleV12pageNotFoundSSvg",
+                "mangledName": "$s14ErrorScenesKit0A5TitleV12pageNotFoundSSvg",
+                "moduleName": "ErrorScenesKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorTitle",
+                "printedName": "ErrorScenesKit.ErrorTitle",
+                "usr": "s:14ErrorScenesKit0A5TitleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ErrorScenesKit0A5TitleVACycfc",
+            "mangledName": "$s14ErrorScenesKit0A5TitleVACycfc",
+            "moduleName": "ErrorScenesKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ErrorScenesKit0A5TitleV",
+        "mangledName": "$s14ErrorScenesKit0A5TitleV",
+        "moduleName": "ErrorScenesKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ErrorScenesKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageResource",
+        "printedName": "ImageResource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "brokenLink",
+            "printedName": "brokenLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE10brokenLinkACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE10brokenLinkACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE10brokenLinkACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE10brokenLinkACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE16connectionFailedACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE16connectionFailedACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE16connectionFailedACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE16connectionFailedACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noResult",
+            "printedName": "noResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE8noResultACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE8noResultACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE8noResultACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE8noResultACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notEnoughSpace",
+            "printedName": "notEnoughSpace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE14notEnoughSpaceACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE14notEnoughSpaceACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE14notEnoughSpaceACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE14notEnoughSpaceACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opps",
+            "printedName": "opps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE4oppsACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE4oppsACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE4oppsACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE4oppsACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageNotFound",
+            "printedName": "pageNotFound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "DeveloperToolsSupport.ImageResource",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE12pageNotFoundACvpZ",
+            "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE12pageNotFoundACvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "DeveloperToolsSupport.ImageResource",
+                    "usr": "s:21DeveloperToolsSupport13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE12pageNotFoundACvgZ",
+                "mangledName": "$s21DeveloperToolsSupport13ImageResourceV14ErrorScenesKitE12pageNotFoundACvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21DeveloperToolsSupport13ImageResourceV",
+        "mangledName": "$s21DeveloperToolsSupport13ImageResourceV",
+        "moduleName": "DeveloperToolsSupport",
+        "intro_Macosx": "14.0",
+        "intro_iOS": "17.0",
+        "intro_tvOS": "17.0",
+        "intro_watchOS": "10.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSImage",
+        "printedName": "NSImage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "brokenLink",
+            "printedName": "brokenLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE10brokenLinkABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE10brokenLinkABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE10brokenLinkABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE10brokenLinkABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE16connectionFailedABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE16connectionFailedABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE16connectionFailedABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE16connectionFailedABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noResult",
+            "printedName": "noResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE8noResultABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE8noResultABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE8noResultABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE8noResultABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notEnoughSpace",
+            "printedName": "notEnoughSpace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE14notEnoughSpaceABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE14notEnoughSpaceABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE14notEnoughSpaceABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE14notEnoughSpaceABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "opps",
+            "printedName": "opps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE4oppsABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE4oppsABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE4oppsABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE4oppsABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pageNotFound",
+            "printedName": "pageNotFound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSImage",
+                "printedName": "AppKit.NSImage",
+                "usr": "c:objc(cs)NSImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7NSImageC14ErrorScenesKitE12pageNotFoundABvpZ",
+            "mangledName": "$sSo7NSImageC14ErrorScenesKitE12pageNotFoundABvpZ",
+            "moduleName": "ErrorScenesKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSImage",
+                    "printedName": "AppKit.NSImage",
+                    "usr": "c:objc(cs)NSImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7NSImageC14ErrorScenesKitE12pageNotFoundABvgZ",
+                "mangledName": "$sSo7NSImageC14ErrorScenesKitE12pageNotFoundABvgZ",
+                "moduleName": "ErrorScenesKit",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSImage",
+        "moduleName": "AppKit",
+        "isOpen": true,
+        "objc_name": "NSImage",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 9,
+      "value": "\"Go Back\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 18,
+      "value": "\"ConnectionFailed\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 12,
+      "value": "\"BrokenLink\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 10,
+      "value": "\"NoResult\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 17,
+      "value": "\"NotEnoughtSpace\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"Opps\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 14,
+      "value": "\"PageNotFound\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 18,
+      "value": "\"ConnectionFailed\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 12,
+      "value": "\"BrokenLink\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 10,
+      "value": "\"NoResult\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 17,
+      "value": "\"NotEnoughtSpace\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 6,
+      "value": "\"Opps\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 14,
+      "value": "\"PageNotFound\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 62,
+      "value": "\"Could not connect to the network, Please check and try again\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 46,
+      "value": "\"Something went wrong, please Try again later\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 64,
+      "value": "\"Sorry there are no results for this search. Please try another\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 56,
+      "value": "\"You do not have enought storage left to save this file\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 56,
+      "value": "\"Something wrong with your connection, please try again\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 55,
+      "value": "\"The page you are looking for doesn't seem to exist...\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 62,
+      "value": "\"Could not connect to the network, Please check and try again\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 46,
+      "value": "\"Something went wrong, please Try again later\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 64,
+      "value": "\"Sorry there are no results for this search. Please try another\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 56,
+      "value": "\"You do not have enought storage left to save this file\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 56,
+      "value": "\"Something wrong with your connection, please try again\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 55,
+      "value": "\"The page you are looking for doesn't seem to exist...\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 970,
+      "length": 19,
+      "value": "\"Connection Failed\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 13,
+      "value": "\"Broken Link\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1044,
+      "length": 11,
+      "value": "\"No Result\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 19,
+      "value": "\"Not Enought Space\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 6,
+      "value": "\"Opps\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Documents\/DEV\/ErrorScenesKit\/ErrorScenesKit\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 16,
+      "value": "\"Page Not Found\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 12,
+      "value": "\"BrokenLink\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 18,
+      "value": "\"ConnectionFailed\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1168,
+      "length": 10,
+      "value": "\"NoResult\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1338,
+      "length": 16,
+      "value": "\"NotEnoughSpace\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1494,
+      "length": 6,
+      "value": "\"Opps\""
+    },
+    {
+      "filePath": "\/Users\/adrian\/Library\/Developer\/Xcode\/DerivedData\/ErrorScenesKit-hijqnokdqgzfmxfyyxatavhhnbri\/Build\/Intermediates.noindex\/ErrorScenesKit.build\/Debug\/ErrorScenesKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1656,
+      "length": 14,
+      "value": "\"PageNotFound\""
+    }
+  ]
+}
